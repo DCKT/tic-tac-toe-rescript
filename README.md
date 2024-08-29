@@ -6,12 +6,11 @@
 
 Install deps
 
+```bash
+bun install
 ```
-yarn
-```
-
 Run vite
 
 ```bash
-yarn dev
+bun dev
 ```

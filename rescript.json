@@ -1,5 +1,5 @@
 {
-  "name": "vite-react-rescript-starter",
+  "name": "tic-tac-toe",
   "sources": [
     {
       "dir": "src",
@@ -8,14 +8,13 @@
   ],
   "package-specs": [
     {
-      "module": "es6",
+      "module": "esmodule",
       "in-source": true
     }
   ],
+  "jsx": { "version": 4 },
   "suffix": ".bs.js",
-  "reason": {
-    "react-jsx": 3
-  },
+  "uncurried": true,
   "warnings": {
     "number": "-44-30-32",
     "error": "+5"
